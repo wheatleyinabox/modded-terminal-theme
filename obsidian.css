@@ -219,7 +219,7 @@ settings:
   --quit: "/q";
   --preview-mode: "/p";
   --edit-mode: "/e";
-  --more: "/?";
+  --more: "...";
   --pwd: "PWD";
 }
 body {
