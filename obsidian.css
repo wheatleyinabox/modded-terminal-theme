@@ -395,17 +395,32 @@ button.mod-warning {
 /* Frameless */
 body {
   padding-top: 0 !important;
+  --header-height: 36px
 }
 /* Hide ribbon */
 .workspace-ribbon.mod-left,
 .workspace-ribbon.mod-right {
   /* display: none; */
   flex-basis: 0px;
-  border-width: 0px;
+  border-width: 1px;
+  margin-top: var(--header-height);
 }
 .workspace-split.mod-right-split,
 .workspace-split.mod-left-split {
   margin-right: 0;
+}
+.workspace-ribbon {
+  width: var(--ribbon-width);
+  flex: 0 0 var(--ribbon-width);
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  background-color: var(--ribbon-background);
+  z-index: var(--layer-sidedock);
+  color: var(--text-muted);
+  padding: var(--ribbon-padding);
+  gap: var(--size-4-1);
+  border-right: var(--divider-width) solid var(--divider-color);
 }
 /* Frameless */
 .titlebar-button-container {
