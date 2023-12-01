@@ -1477,6 +1477,16 @@ button.document-search-button:not([aria-label]):before {
   bottom: 2px;
   right: -12px;
 }
+.search-input-container:before {
+  top: calc((var(--input-height) - var(--search-icon-size)) / 200);
+  left: -15px;
+  position: absolute;
+  content: '';
+  height: var(--search-icon-size);
+  width: var(--search-icon-size);
+  display: block;
+  background-color: var(--search-icon-color);
+}
 
 /* Empty State */
 .empty-state {
