@@ -1405,6 +1405,10 @@ button.document-search-button[aria-label="Enter"]:before {
 button.document-search-button:not([aria-label]):before {
   content: var(--all);
 }
+button.mod-cta {
+  background-color: var(--interactive-accent);
+  color: var(--the-color);
+}
 .document-search-close-button:before {
   content: var(--close);
   font-size: var(--the-font-size);
