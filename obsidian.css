@@ -390,6 +390,9 @@ button.mod-warning {
     var(--the-background-color);
   background-color: var(--the-color);
 }
+.status-bar {
+  margin-right: 20px;
+}
 
 /* HIDER */
 /* Frameless */
