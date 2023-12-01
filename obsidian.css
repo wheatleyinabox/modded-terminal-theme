@@ -1128,6 +1128,11 @@ div[aria-label*="Not created"] svg {
   font-weight: bold;
 }
 
+.markdown-rendered div:has( > :is(p,pre,table,ul,ol)) + div > :is(h1,h2,h3,h4,h5,h6) {
+  margin-top: var(--heading-spacing);
+  padding-bottom: 10px;
+}
+
 a:hover {
   color: var(--the-color);
 }
