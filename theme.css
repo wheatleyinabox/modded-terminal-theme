@@ -13,6 +13,8 @@
 
     Created with :green_heart: by zcysxy (@Atlas#7560)
 Github: https://github.com/zcysxy/Obsidian-Terminal-Theme
+    Modded by wheatleyinabox
+Github: https://github.com/wheatleyinabox
 *********************************************************/
 
 /* Style Settings */
@@ -36,7 +38,7 @@ settings:
             -
                 id: the-color-rgb
                 format: rgb
-        default: '#15d00d'
+        default: '#ff4500'
     - 
         id: the-background-color
         title: Background Color
@@ -182,8 +184,8 @@ settings:
 
 /* Root Variables */
 :root {
-  --the-color: #15d00d;
-  --the-color-rgb: 35, 255, 24;
+  --the-color: #ff9f33;
+  --the-color-rgb: 255, 159, 51;
   --the-background-color: #000000;
   --the-font: Fira Code;
   --the-font-size: 14px;
@@ -1101,7 +1103,6 @@ div[aria-label*="Not created"] svg {
 .markdown-preview-view h5,
 .markdown-preview-view h6 {
   margin: 0;
-  font-size: var(--the-font-size);
 }
 
 /* Inline Formats */
@@ -1421,7 +1422,7 @@ button.document-search-button:not([aria-label]):before {
 
 /* Empty State */
 .empty-state-container:after {
-  content: "---------------------------------\A                     \\   ^__^\A                      \\  (oo)\\_______\A                         (__)\\        )\\/\\\A                             ||----w |\A                             ||     ||";
+  content: "\A.,-:;//;:=,\A. :H@@@MM@M#H/.,+%;,\A,/X+ +M@@M@MM%=,-%HMMM@X/,\A-+@MM; $M@@MH+-,;XMMMM@MMMM@+-\A;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.\A,%MM@@MH ,@%=            .---=-=:=,.\A=@#@@@MX .,              -%HX$$%%%+;\A=-./@M@M$                  .;@MMMM@MM:\AX@/ -$MM/                    .+MM@@@M$\A,@M@H: :@:                    . =X#@@@@-\A,@@@MMX, .                    /H- ;@M@M=\A.H@@@@M@+,                    %MM+..%#$.\A/MMMM@MMh/.                  XM@MH; =;\A/%+%$XHH@$=              , .H@@@@MX,\A.=--------.           -%H.,@@@@@MX,\A.%MM@@@HHHXX$$$%+- .:$MMX =M@@MM%.\A=XMMM@MM@MM#H;,-+HMM@M+ /MMMX=\A=%@M@M#@$-.=$@MM@@@M; %M%=\A,:+$+-,/H#MMMMMMM@= =,\A=++%%%%+/;-";
   white-space: pre;
 }
 .empty-state-title {
